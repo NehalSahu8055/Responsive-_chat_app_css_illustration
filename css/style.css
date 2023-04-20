@@ -74,7 +74,7 @@ body{
     background-color: white;
     border-radius: 0 0 11px 11px;
     position: relative; 
-    top:-29.32em;
+    top:-470px;
 }
 .back-notch .details{
     display: flex;
@@ -224,13 +224,13 @@ body{
 
 @media only screen and (max-width:700px){
     
-    .row{
+   .row{
         text-align: center;
         flex-direction: column;
         gap:70px;
-    }
-    body{
-        margin:-120px 0 0 0;
+        top:-720px;
+        right:0px;
+        zoom:1.2;
     }
     .about{
         text-align: center;
@@ -240,6 +240,9 @@ body{
     .bg{
         top:-300px;
         right: 120px;
+    }
+    .notch{
+        top:-473px;
     }
 
     
